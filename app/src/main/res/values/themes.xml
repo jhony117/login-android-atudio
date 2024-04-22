@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MDLoggin" parent="Theme.Material3.DayNight.NoActionBar">  <!--Material Desing -->
+<!--    <style name="Base.Theme.MDLoggin" parent="android:Theme.Holo.Light.DarkActionBar">-->  <!--holo-->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        
+    <!--    <item name="android:actionBarStyle">@style/MyActionBar</item>&lt;!&ndash;&ndash;&gt;-->
+    </style>
+
+    <style name="Theme.MDLoggin" parent="Base.Theme.MDLoggin" />
+
+    <style name="MyActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/design_default_color_primary</item>
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
